@@ -1,0 +1,99 @@
+const table = document.createElement("table");
+
+table.style.borderCollapse = "collapse";
+table.style.border = "2px solid black";
+table.style.width = "700px";
+table.style.height = "220px";
+
+const row1 = document.createElement("tr");
+const row2 = document.createElement("tr");
+const row3 = document.createElement("tr");
+const row4 = document.createElement("tr");
+const row5 = document.createElement("tr");
+
+const cell1_1 = document.createElement("td");
+cell1_1.textContent ="№"
+const cell1_2 = document.createElement("td");
+cell1_2.textContent ="full name"
+const cell1_3 = document.createElement("td");
+cell1_3.textContent ="position"
+const cell1_4 = document.createElement("td");
+cell1_4.textContent ="salary"
+
+const cell2_1 = document.createElement("td");
+cell2_1.textContent ="1"
+const cell2_2 = document.createElement("td");
+cell2_2.textContent ="Bill Gates"
+const cell2_3 = document.createElement("td");
+cell2_3.textContent ="Founder Microsoft"
+const cell2_4 = document.createElement("td");
+cell2_4.textContent ="1000$"
+
+const cell3_1 = document.createElement("td");
+cell3_1.textContent ="2"
+const cell3_2 = document.createElement("td");
+cell3_2.textContent ="Steve Jobs"
+const cell3_3 = document.createElement("td");
+cell3_3.textContent ="Founder Apple"
+const cell3_4 = document.createElement("td");
+cell3_4.textContent ="1200$"
+
+const cell4_1 = document.createElement("td");
+cell4_1.textContent ="3"
+const cell4_2 = document.createElement("td");
+cell4_2.textContent ="Larry Page"
+const cell4_3 = document.createElement("td");
+cell4_3.textContent ="Founder Goole"
+const cell4_4 = document.createElement("td");
+cell4_4.textContent ="1100$"
+
+const cell5_1 = document.createElement("td");
+cell5_1.textContent ="4"
+const cell5_2 = document.createElement("td");
+cell5_2.textContent ="Mark Zuckerberg"
+const cell5_3 = document.createElement("td");
+cell5_3.textContent ="Founder Facebook"
+const cell5_4 = document.createElement("td");
+cell5_4.textContent ="1300$"
+
+row1.appendChild(cell1_1);
+row1.appendChild(cell1_2);
+row1.appendChild(cell1_3);
+row1.appendChild(cell1_4);
+
+row2.appendChild(cell2_1);
+row2.appendChild(cell2_2);
+row2.appendChild(cell2_3);
+row2.appendChild(cell2_4);
+
+row3.appendChild(cell3_1);
+row3.appendChild(cell3_2);
+row3.appendChild(cell3_3);
+row3.appendChild(cell3_4);
+
+row4.appendChild(cell4_1);
+row4.appendChild(cell4_2);
+row4.appendChild(cell4_3);
+row4.appendChild(cell4_4);
+
+row5.appendChild(cell5_1);
+row5.appendChild(cell5_2);
+row5.appendChild(cell5_3);
+row5.appendChild(cell5_4);
+
+
+table.appendChild(row1);
+table.appendChild(row2);
+table.appendChild(row3);
+table.appendChild(row4);
+table.appendChild(row5);
+
+
+row1.style.border = "2px solid black";
+row2.style.border = "2px solid black";
+row3.style.border = "2px solid black";
+row4.style.border = "2px solid black";
+row5.style.border = "2px solid black";
+
+
+document.body.appendChild(table);
